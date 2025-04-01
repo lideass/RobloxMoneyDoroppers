@@ -6,7 +6,7 @@ local function PlJoin(p)
 	board.Parent = p
 
 	local point = Instance.new("IntValue")
-	point.Name = "カネ"
+	point.Name = "まねぃ"
 	point.Value = 0
 	point.Parent = board
 end

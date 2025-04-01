@@ -5,9 +5,9 @@ function brock:ItemValuesChange(hit,increase)
 		local h = hit.Parent
 		if h:FindFirstChildWhichIsA("Humanoid") then
 			local players = players:GetPlayerFromCharacter(h)
-			players.leaderstats["まねぃ"].Value += increase
-			if players.leaderstats["まねぃ"].Value >= 100 then
-				players:Kick("あなたはカネを捕りすぎです。欲張りはやめましょう。")
+			players.leaderstats["まねー"].Value += increase
+			if players.leaderstats["まねー"].Value >= 100 then
+				players:Kick("あなたはまねーを捕りすぎです。欲張りはやめましょう。")
 			end
 			return true
 		end
